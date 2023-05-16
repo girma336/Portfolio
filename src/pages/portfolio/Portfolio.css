@@ -120,6 +120,10 @@
   padding: 20px;
 }
 
+.right {
+  float: right;
+}
+
 @media screen and (max-width: 1200px) {
   .grid {
     gap: 28px;
@@ -166,5 +170,14 @@
 
   .modal__img {
     height: 200px;
+  }
+
+  .button {
+    padding: 12px 35px 12px 12px;
+  }
+
+  .button__icon {
+    width: 30px;
+    font-size: var(--small-font-size);
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/cv.pdf';
+import Cv from '../../assets/Girma_Tarekegn_Resume.pdf';
 import Info from './Info';
 import Stats from './Stats';
 import './About.css';
@@ -23,8 +23,8 @@ const About = () => (
           <ul className="info__list grid">
             <Info />
           </ul>
-          <a href={CV} download="" className="button">
-            Download CV
+          <a href={Cv} target="_blank" download="" className="button" rel="noreferrer">
+            Download Cv
             <span className="button__icon">
               <FaDownload />
             </span>

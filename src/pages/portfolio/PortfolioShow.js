@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { FiExternalLink } from 'react-icons/fi';
+import { FaGithub } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import close from '../../assets/close.png';
 
 const PortfolioShow = ({
-  images, title, details, live,
+  images, title, details, live, git,
 }) => {
   const [modal, setModal] = useState(false);
   // console.log(details);
@@ -47,10 +48,16 @@ const PortfolioShow = ({
               ))}
             </ul>
             <img src={images} alt="" className="modal__img" />
-            <a href={live} download="" className="button">
-              See More
+            <a href={live} target="_blank" className="button" rel="noreferrer">
+              Live Demo
               <span className="button__icon">
                 <FiExternalLink />
+              </span>
+            </a>
+            <a href={git} target="_blank" className="button right" rel="noreferrer">
+              See More
+              <span className="button__icon">
+                <FaGithub />
               </span>
             </a>
           </div>
@@ -65,5 +72,6 @@ PortfolioShow.propTypes = {
   title: PropTypes.string.isRequired,
   details: PropTypes.shape([]).isRequired,
   live: PropTypes.string.isRequired,
+  git: PropTypes.string.isRequired,
 };
 export default PortfolioShow;

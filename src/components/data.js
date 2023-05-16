@@ -24,7 +24,7 @@ import PairP from '../assets/pair_prog.png';
 import Git from '../assets/git.png';
 import FinalSpace from '../assets/finalSpace.png';
 import SpaceTra from '../assets/spaceTr.png';
-import BlogApp from '../assets/Blogapp.png';
+import BookStor from '../assets/bookStor.png';
 import MathLog from '../assets/MathLo.png';
 import Meals from '../assets/Meals.png';
 import Budget from '../assets/budget.png';
@@ -113,8 +113,8 @@ export const stats = [
   },
   {
     id: 3,
-    no: '1+',
-    title: 'Years of <br /> Experience',
+    no: '5+',
+    title: 'Mentored junior <br /> web developers',
   },
 ];
 
@@ -220,6 +220,7 @@ export const portfolios = [
     id: 1,
     title: 'Space Travelers',
     images: SpaceTra,
+    git: 'https://github.com/girma336/space-travelers',
     live: 'https://girma336.github.io/space-travelers/',
     details: [
       {
@@ -232,18 +233,14 @@ export const portfolios = [
         title: 'Language : ',
         desc: 'React, Js, Html',
       },
-      // {
-      //     icon: <FiExternalLink />,
-      //     title: 'See More',
-      //     desc: 'https://github.com',
-      // }
     ],
   },
   {
     id: 2,
-    title: 'Math magicians" ',
+    title: 'Math magicians',
     images: MathLog,
-    live: 'https://github.com/girma336/math-magicians',
+    git: 'https://github.com/girma336/math-magicians',
+    live: 'https://math-magicicn.onrender.com',
     details: [
       {
         icon: <FiFileText />,
@@ -255,17 +252,13 @@ export const portfolios = [
         title: 'Language : ',
         desc: 'React, Js, Html',
       },
-      // {
-      //     icon: <FiExternalLink />,
-      //     title: 'See More',
-      //     desc: 'https://github.com',
-      // }
     ],
   },
   {
     id: 3,
     title: 'Final Space',
     images: FinalSpace,
+    git: 'https://github.com/girma336/react-capstone',
     live: 'https://final-speces-app.onrender.com/',
     details: [
       {
@@ -278,42 +271,33 @@ export const portfolios = [
         title: 'Language : ',
         desc: 'React, Js, Html',
       },
-      // {
-      //     icon: <FiExternalLink />,
-      //     title: 'See More',
-      //     desc: 'https://github.com',
-      // }
     ],
   },
   {
     id: 4,
-    title: 'Blog App',
-    images: BlogApp,
-    live: 'https://github.com/girma336/blog-app',
+    title: 'Book Store',
+    images: BookStor,
+    git: 'https://github.com/girma336/bookstore-react',
+    live: 'https://book-react-app-fjfx.onrender.com/',
     details: [
 
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'This project shows the list of posts and empower readers to interact with them by adding comments and liking posts.',
+        desc: 'Book store app is a single-page app (SPA) that allows users to display a list of books, add a book, and remove selected books.',
       },
       {
         icon: <FiCode />,
         title: 'Language : ',
-        desc: 'Ruby on Rails, Postgresql',
+        desc: 'React, Js, CSS, Html',
       },
-      // {
-      //     icon: <FiExternalLink />,
-      //     title: 'See More',
-      //     desc: 'https://github.com/girma336/blog-appss',
-      // },
-
     ],
   },
   {
     id: 5,
     title: 'Budget App',
     images: Budget,
+    git: 'https://github.com/girma336/budget-app',
     live: 'https://budget-app-girma.onrender.com/',
     details: [
 
@@ -327,11 +311,6 @@ export const portfolios = [
         title: 'Language : ',
         desc: 'Ruby on Rails, Postgresql',
       },
-      // {
-      //     icon: <FiExternalLink />,
-      //     title: 'See More',
-      //     desc: 'https://github.com/girma336/blog-appss',
-      // },
 
     ],
   },
@@ -339,6 +318,7 @@ export const portfolios = [
     id: 6,
     title: 'Meals App',
     images: Meals,
+    git: 'https://github.com/girma336/capston-project-js',
     live: 'https://girma336.github.io/capston-project-js/',
     details: [
 
@@ -352,12 +332,6 @@ export const portfolios = [
         title: 'Language : ',
         desc: 'Js, Css, Html, Webpack',
       },
-      // {
-      //     icon: <FiExternalLink />,
-      //     title: 'See More',
-      //     desc: 'https://github.com/girma336/blog-appss',
-      // },
-
     ],
   },
 ];
