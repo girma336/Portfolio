@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 @media screen and (max-width: 1400px) {
   .container {
     max-width: calc(100% - 180px);
