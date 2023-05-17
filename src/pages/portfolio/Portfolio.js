@@ -15,7 +15,7 @@ const Portfolio = () => (
       {portfolios.map((val) => <PortfolioShow key={val.id} {...val} />)}
     </div>
     <div className="container center_btn">
-      <a href="https://github.com/girma336" download="" className="button">
+      <a target="_blank" href="https://github.com/girma336" rel="noreferrer" className="button">
         See More
         <span className="button__icon">
           <FaGithub />

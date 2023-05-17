@@ -42,16 +42,16 @@ const Contact = () => (
           </div>
         </div>
         <div className="contact__socials">
-          <a href="https://www.linkedin.com/in/girma-tarekegn/" className="contact__social-link">
+          <a href="https://www.linkedin.com/in/girma-tarekegn/" target="_blank" rel="noreferrer" className="contact__social-link">
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com/GirmaTarekegn5" className="contact__social-link">
+          <a href="https://twitter.com/GirmaTarekegn5" target="_blank" rel="noreferrer" className="contact__social-link">
             <FaTwitter />
           </a>
           {/* <a href="https://github.com/girma336" className="contact__social-link">
               <FaYoutube />
             </a> */}
-          <a href="https://github.com/girma336" className="contact__social-link">
+          <a href="https://github.com/girma336" target="_blank" rel="noreferrer" className="contact__social-link">
             <FaGithub />
           </a>
         </div>
