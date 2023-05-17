@@ -48,15 +48,15 @@ const PortfolioShow = ({
               ))}
             </ul>
             <img src={images} alt="" className="modal__img" />
-            <a href={live} target="_blank" className="button" rel="noreferrer">
+            <a href={live} target="_blank" className="button button__new" rel="noreferrer">
               Live Demo
-              <span className="button__icon">
+              <span className="button__icon button__new__icon">
                 <FiExternalLink />
               </span>
             </a>
-            <a href={git} target="_blank" className="button right" rel="noreferrer">
+            <a href={git} target="_blank" className="button button__new right" rel="noreferrer">
               See More
-              <span className="button__icon">
+              <span className="button__icon button__new__icon">
                 <FaGithub />
               </span>
             </a>

@@ -172,11 +172,11 @@
     height: 200px;
   }
 
-  .button {
+  .button__new {
     padding: 12px 35px 12px 12px;
   }
 
-  .button__icon {
+  .button__new__icon {
     width: 30px;
     font-size: var(--small-font-size);
   }
